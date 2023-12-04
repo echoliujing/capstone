@@ -1,4 +1,4 @@
-# MADS Capstone 699 
+# MADS699 Capstone   
 
 ## Prediction of Real-word iPhone Sales with Opinion Dynamics on Reddit
 
