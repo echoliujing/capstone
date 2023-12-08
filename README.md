@@ -11,7 +11,7 @@ We use the Reddit Comment Data between 2008 and 2019, a publicly available data 
 - **Predicted data from stage 2**:  this folder contains all cleaned data with two additional columns: (1) *sentiment label*: 1 means positive sentiment, 0 means neutral, -1 means negative sentiment; (2) *type*: "labeled" vs. "predicted", indicating whether the sentiment label was labeled by the the two human coders or predicted by the best model found in stage 2. Due to the storage limitation of this Repo, we didn't push them here, instead, they can be accessed from [this folder](https://drive.google.com/drive/folders/1-ybm8bWPhP7-qCwKiNedACQkUJA2WbLN?usp=sharing).  
 
 ### Codes Execution 
-Please follow the below steps to run the codes for each stages:
+Please follow the below steps to run the codes for each stage:
 
 1. **Topic Modeling**: run the " " file.
 2. **Sentiment Classification**: set up the environment by installing all packages listed in **2. requirements.txt** file, then run the **2. Sentiment classification.ipynb** file. The input data include the labeled data (i.e., check the **Labeled_sentiment classification** folder in *Data Access Statement* section) for model training & evaluation, as well as the **Data** folder for model application and sentiment prediction of all unlabeled data (i.e., check the **The Data** folder in the *Data Access Statement* section). The final data with sentiment labels either labeled or predicted by the best model can be accessed in the **Predicted data from stage 2** folder, and the best models of different approaches can be accessed in the **Models_sentiment classification** folder in ths Repo (check *Data Access Statement* section).
