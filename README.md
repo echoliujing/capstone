@@ -10,5 +10,5 @@ Specifically, our project contains three stages: (1) explore the online dynamics
 To execute the codes, please follow the following steps:
 
 (1) Topic Modeling: run the " " file.
-(2) Sentiment Analysis: run the "Sentiment classification_3class.ipynb" file with the input data from the 'Labeled" folder. To apply the best model to predict on unlabeled data, the input data come from the "Data" folder and the output are saved in a new folder named "Results".
+(2) Sentiment Analysis: set up the environment by installing all packages listed in '2. requirements.txt' file, then run the "Sentiment classification.ipynb" file with the input data from the 'Labeled" folder (for model training and evaluation, included in this repository) and  "Data" folder (for prediction, not uploaded due to the limited repository storage), the output will be saved in a new folder named "Results" (not uploaded due to the limited repository storage).
 (3) Offline Sales Prediction: run the " " file.
