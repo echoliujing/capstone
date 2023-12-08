@@ -6,7 +6,7 @@ We use the Reddit Comment Data between 2008 and 2019, a publicly available data 
 ## Data Access Statement
 - **The raw data**: this is the raw reddit comments data set from clickhouse, and it can be accessed via [this link](https://clickhouse.com/docs/en/getting-started/example-datasets/reddit-comments).  
 - **Data**: the **Data** folder contains all iPhone-related comment posts from two subreddits (iphone & apple). Due to the storage limitation of this Repo, please check [this folder](https://drive.google.com/drive/folders/10toX4JXv3NHkC5owntA7LWuxKkyROyIe?usp=sharing) to access it. 
-- **Labeled data_sentiment classification**: this folder contains the data randomly sampled for human labeling and was used for sentiment classification. It can be accessed in this Repo directly.    
+- **Labeled_sentiment classification**: this folder contains the data randomly sampled for human labeling and was used for sentiment classification. It can be accessed in this Repo directly.    
 - **Results_sentiment classification**:  this folder contains all cleaned data in csv. files, with two additional columns added by stage 2: (1) *sentiment label*: 1 means positive sentiment, 0 means neutral, -1 means negative sentiment; (2) *type*: "labeled" vs. "predicted", indicating whether the sentiment label was labeled by the the two human coders or predicted by the best model found in the sentiment classification stage.   Due to the storage limitation of this Repo, they are accessed in [this folder](https://drive.google.com/drive/folders/1-ybm8bWPhP7-qCwKiNedACQkUJA2WbLN?usp=sharing).   
 
 ## Codes Execution 
