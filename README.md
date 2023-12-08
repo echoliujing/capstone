@@ -12,6 +12,6 @@ To execute the codes, please follow the below steps:
 
 (1) Topic Modeling: run the " " file.
 
-(2) Sentiment Analysis: set up the environment by installing all packages listed in "2. requirements.txt" file, then run the "2. Sentiment classification.ipynb" file with the input data from the 'Labeled" folder (for model training and evaluation, uploaded in this repository) and  "Data" folder (for prediction, not uploaded here due to the limited repository storage), the output will be saved in a new folder named "Results" (not uploaded here due to the limited repository storage).
+(2) Sentiment Analysis: set up the environment by installing all packages listed in "2. requirements.txt" file, then run the "2. Sentiment classification.ipynb" file with the input data from the 'Labeled" folder (for model training and evaluation, uploaded in this repository) and  "Data" folder (for unlabeled data's sentiment prediction, not uploaded here due to the limited repository storage, can be accessed from this link: https://drive.google.com/drive/folders/10toX4JXv3NHkC5owntA7LWuxKkyROyIe?usp=sharing), the output will be saved in a new folder named "Results" (not uploaded here due to the limited repository storage, can be accessed from this link: https://drive.google.com/drive/folders/1-ybm8bWPhP7-qCwKiNedACQkUJA2WbLN?usp=sharing).
 
 (3) Offline Sales Prediction: run the " " file.
