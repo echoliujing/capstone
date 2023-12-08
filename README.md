@@ -6,13 +6,13 @@ We use the Reddit Comment Data between 2008 and 2019, a publicly available data 
 
 ### Data Access Statement
 - The raw data from clickhouse:  https://clickhouse.com/docs/en/getting-started/example-datasets/reddit-comments  
-- Cleaned data (the data used in this project): https://drive.google.com/drive/folders/10toX4JXv3NHkC5owntA7LWuxKkyROyIe?usp=sharing
+- The data (the cleaned data used in this project): https://drive.google.com/drive/folders/10toX4JXv3NHkC5owntA7LWuxKkyROyIe?usp=sharing
 - Labeled data for sentiment analysis (can also be accessed in this Repository):  https://drive.google.com/drive/folders/1-ybm8bWPhP7-qCwKiNedACQkUJA2WbLN?usp=sharing 
-- Results for sentiment classification: https://drive.google.com/drive/folders/1-ybm8bWPhP7-qCwKiNedACQkUJA2WbLN?usp=sharing  
+- Prediction results returned by sentiment classification: https://drive.google.com/drive/folders/1-ybm8bWPhP7-qCwKiNedACQkUJA2WbLN?usp=sharing  
 
 ### Codes Execution 
 Please follow the below steps to run the codes for each stages:
 
 1. Topic Modeling: run the " " file.
-2.  Sentiment Analysis: set up the environment by installing all packages listed in "2. requirements.txt" file, then run the "2. Sentiment classification.ipynb" file with the input data from the 'Labeled" folder (for model training and evaluation, uploaded in this repository as well) and  "Data" folder (i.e., the cleaned data for unlabeled data's sentiment prediction, not uploaded here due to the limited repository storage, can be accessed from the link provided in Data Access Statement) respectively
-3.  Offline Sales Prediction: run the " " file.
+2.  Sentiment Analysis: set up the environment by installing all packages listed in "2. requirements.txt" file, then run the "2. Sentiment classification.ipynb" file with the input data from the 'Labeled_sentiment classification" folder (for model training and evaluation, uploaded in this repository as well) and  "Data" folder (i.e., the cleaned data for the unlabeled data's sentiment prediction, not uploaded here due to the limited repository storage, can be accessed from the link provided in Data Access Statement) respectively. The models are saved in pickles files and cane be accessed in the folder 'Models_sentiment classication'. 
+4.  Offline Sales Prediction: run the " " file.
