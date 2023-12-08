@@ -6,7 +6,7 @@ We use the Reddit Comment Data between 2008 and 2019, a publicly available data 
 
 ### Data Access Statement
 - The raw data from clickhouse:  https://clickhouse.com/docs/en/getting-started/example-datasets/reddit-comments  
-- The data (the cleaned data used in this project): https://drive.google.com/drive/folders/10toX4JXv3NHkC5owntA7LWuxKkyROyIe?usp=sharing
+- The data (the cleaned data used in this project): check [the link](https://drive.google.com/drive/folders/10toX4JXv3NHkC5owntA7LWuxKkyROyIe?usp=sharing)
 - Labeled data for stage 2 (sentiment classification): can be accessed in the folder "Labled_sentiment classification" from this repository.    
 - Predicted data from stage 2 (sentiment classification): https://drive.google.com/drive/folders/1-ybm8bWPhP7-qCwKiNedACQkUJA2WbLN?usp=sharing  
 
