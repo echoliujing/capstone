@@ -12,6 +12,9 @@ We use the Reddit Comment Data between 2008 and 2019, a publicly available data 
 Please follow the below steps to run the codes for each stage:
 
 1. **Topic Modeling**: run the " " file.
+   
 2. **Sentiment Classification**: set up the environment by installing all packages listed in the ***2. requirements.txt*** file, then run the ***2. Sentiment classification.ipynb*** file with input data include the labeled data (i.e., the ***Labeled_sentiment classification*** folder) for model training & evaluation, as well as the cleaned data for sentiment prediction of all unlabeled data (i.e., the ***The Data** folder).
+   
 The final data with sentiment labels either manually labeled or predicted by the best model found in stage 2 can be accessed in the ***Predicted data from stage 2*** folder, and the best models found in this process can be accessed in the ***Models_sentiment classification*** folder in ths Repo. Please check *Data Access Statement* section for details about the data folders.
-4. **Offline Sales Prediction**: run the " " file.
+
+3. **Offline Sales Prediction**: run the " " file.
