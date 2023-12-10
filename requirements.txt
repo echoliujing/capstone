@@ -1,5 +1,4 @@
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl
-gensim==4.3.0
 ipykernel==6.15.1
 ipytablewidgets==0.3.1
 ipython==8.4.0
@@ -43,4 +42,5 @@ tensorflow-metal==0.7.1
 plotly==4.14.1
 pyLDAvis==3.4.0
 textblob==0.17.1
-wordcloud==1.9.3
+altair==5.0.1
+
