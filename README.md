@@ -13,7 +13,7 @@ Starting from the [Reddit Comments Dataset](https://clickhouse.com/docs/en/getti
 
 ## Codes Execution 
 Please follow the below steps to run the codes for each stage:
-
-1. **Topic Modeling**: run the **part1_topic_model_data_process** file. The input data is from the **Data** folder and the ouput is saved in the **results_topic modeling** folder. 
+0. **Data collection and processing**: rune the **part0_data processing.ipynb** file.
+1. **Topic Modeling**: run the **part1_topic_modeling.ipynb** file. The input data is from the **Data** folder and the ouput is saved in the **results_topic modeling** folder. 
 2. **Sentiment Classification**: run the ***part2_sentiment classification.ipynb*** file with input data including the labeled data from the ***labeled_sentiment classification*** folder for model training & evaluation, and the ***data*** folder for sentiment prediction of unlabeled data.   The ouput, which contains cleaned Reddit data with the sentiment labels either labeled by human coders or predicted by the best classification model,  was saved in the ***results_sentiment classification*** folder. Please check **Data Access Statement** section for details about those data folders.   
 3. **Impact on real-world metrics**: run the ***part3_real-world impact.ipynb*** file with the input data from results from Part 1 and Part 2 in Google Drive. And integrated with some real-world data including iPhone sales by month, American regions ratio, and GDP growth rate. These data mostly are from 3rd party institution "Statistia", and these data are directly written with variables in the notebook. The visualization and later correlation analysis are straightforward by using models like time series, multiple variates regression, and machine learning. Follow the requirement would directly get the result in the page.
