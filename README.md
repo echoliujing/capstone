@@ -13,6 +13,7 @@ Starting from the [Reddit Comments Dataset](https://clickhouse.com/docs/en/getti
 
 ## Codes Execution 
 Please follow the below steps to run the codes for each stage:
+
 0. **Data collection and processing**: rune the **part0_data processing.ipynb** file.
 1. **Topic Modeling**: run the **part1_topic_modeling.ipynb** file. The input data is from the **Data** folder and the ouput is saved in the **results_topic modeling** folder. 
 2. **Sentiment Classification**: run the ***part2_sentiment classification.ipynb*** file with input data including the labeled data from the ***labeled_sentiment classification*** folder for model training & evaluation, and the ***data*** folder for sentiment prediction of unlabeled data.   The ouput, which contains cleaned Reddit data with the sentiment labels either labeled by human coders or predicted by the best classification model,  was saved in the ***results_sentiment classification*** folder. Please check **Data Access Statement** section for details about those data folders.   
