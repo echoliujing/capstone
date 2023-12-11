@@ -14,8 +14,8 @@ Starting from the [Reddit Comments Dataset](https://clickhouse.com/docs/en/getti
 ## Codes Execution 
 Please follow the below steps to run the codes for each stage:
 
-0. **Data collection and processing**: rune the **part0_data processing.ipynb** file. Both the input and output data were saved in the **data** folder. 
-1. **Topic Modeling**: run the **part1_topic_modeling.ipynb** file. The input data is from the **data** folder and the ouput were saved in the **results_topic modeling** folder. 
+0. **Data collection and processing**: rune the **part0_data_cleaning.ipynb** file. Both the input and output data were saved in the **data** folder. 
+1. **Topic Modeling**: run the **part1_lda.ipynb** file. The input data is from the **data** folder and the ouput were saved in the **results_topic modeling** folder. 
 2. **Sentiment Classification**: run the ***part2_sentiment classification.ipynb*** file. The input includes the labeled data from the ***labeled_sentiment classification*** folder for model training & evaluation, and the iPhone-related Reddit data from the ***data*** folder for sentiment prediction.   The ouput (i.e.,  cleaned Reddit data with sentiment labels) were saved in the ***results_sentiment classification*** folder.  
 3. **Impact on real-world metrics**: run the ***part3_real-world impact.ipynb*** file with the input data from results from Part 1 and Part 2 in Google Drive. And integrated with some real-world data including iPhone sales by month, American regions ratio, and GDP growth rate. These data mostly are from 3rd party institution "Statistia", and these data are directly written with variables in the notebook. The first data integration steps of topic modeling and sentiment result, as well as applying comparison sentiment to posts level are very time costly even with Colab, maybe Colab Pro or using the cloud CPU of Google will fasten the process but have not been tested yet.
 
